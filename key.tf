@@ -1,0 +1,4 @@
+resource "aws_key_pair" "my_keypair" {
+  key_name   = "ec2-key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDBwtvlmC2jJgnk+w5Z7zAReenr9buK4Qr4Jsr6OxpRnEv97T5aiH0PUJDAKB+6h8QdRe2pzFvK0waXuUS5z6nxzjHXG9lmVZBfG7bN1IRQeE11l/qnP+z65ZZPaRYOdPtKAvqDziNlNI84Gz0e00OtRqxRUVywS0UcSyvM+L64p9O/vBOgGXwNtGdfXOic2cB7nzWEjCHQMpstfrACrhPO4mplohh0qRxOGL75ppXF0WiTg0Gl5pxNmgxGm9t9S+WPW3wgWSkDZZ1piKCKPKWEfY/+TFmiA8vZS9btJJx8MRKUEOPVXifsOjWCbmSqbkQJGYKQihCPGpwd93brSobpD6h+4C37LGmmkUtKEkii4xjFKM3GJdcii+7Z3EVJWUp57PaOFqxqkrYgjh/lsA/ViuFGUInlIsffnzRII7/jS+RJqf6DCBiwVsvvoBEAeiQl3M3wknCwIfcaq2FsYwT5SVRnmJtcLaG+zmPXo5erPUQJ+ZNFKTK2/4VaCgTdz/E= ec2-user@ip-10-0-0-111.ap-south-1.compute.internal"
+}
